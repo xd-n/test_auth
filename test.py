@@ -36,7 +36,7 @@ def update_graph(dropdown_value):
                 't': 60
             }
         },
-        'data': [{'x': [1, 2, 3], 'y': [4, 1, 2]}]
+        'data': [{'x': [1, 3, 5], 'y': [4, 1, 2]}]
     }
 
 if __name__ == '__main__':
