@@ -18,7 +18,7 @@ auth = dash_auth.BasicAuth(
 app.layout = html.Div([
     html.H1('Welcome to the app'),
     html.H3('You are successfully authorized'),
-    dcc.Dropdown(['A', 'B'], 'A', id='dropdown'),
+    dcc.Dropdown(['graph A', 'graph B'], 'graph A', id='dropdown'),
     dcc.Graph(id='graph')
 ], className='container')
 
